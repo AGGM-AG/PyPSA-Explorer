@@ -33,6 +33,7 @@ dependencies = [
     "pyyaml>=6.0",
     "typer>=0.9",
     "rich>=13.0",
+    "ipython>=8.0",
 ]
 
 [project.optional-dependencies]
@@ -44,7 +45,6 @@ dev = [
     "ruff>=0.1",
     "mypy>=1.5",
     "pre-commit>=3.4",
-    "ipython>=8.0",
     "jupyter>=1.0",
     "nbconvert>=7.0",
 ]
